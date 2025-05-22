@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.pad {
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.img {
+    height: 50vh;
+    width: 100vw;
+}
+
+.pro-head {
+    font-family: Bree Serif;
+    font-size: 25px;
+    text-align: center;
+    color: #183b56;
+}
+
+.pro-paragraph {
+    font-family: Bree Serif;
+    font-size: 14px;
+    text-align: center;
+    color: #616e7c;
+}
+
+.img-pad {
+    margin: 5px;
+
+}
+
+.img-mod {
+    height: 150px;
+    width: 300px;
+}
+
+.NP-background {
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.NP-card {
+    background-color: #ffffff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.NP-head {
+    font-family: Roboto;
+    color: #7b8794;
+}
+
+.NP-heading {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.NP-paragraph {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #7b8794;
+    padding: 10px;
+}
+
+.NP-butn {
+    background-color: black;
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 5px;
+    margin-right: 98px;
+    margin-left: 30px;
+}
+
+.NP-pad {
+    padding: 18px;
+}
+
+.text {
+    text-align: center;
+}
+
+.HM-backgro {
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png);
+    height: 100vh;
+    background-size: cover;
+}
+
+.HM-back {
+    background-color: #f6c56e;
+    height: 25vh;
+
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.HM-main-heading {
+    font-family: bree Serif;
+    color: black;
+    font-size: 25px;
+    margin: 25px;
+}
+
+.HM-para {
+    font-family: Roboto;
+    margin: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.HM-but {
+    text-align: center;
+    border: 0px;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+
+
+}
+
+.HM-cen {
+    text-align: center;
+    background-color: #f6c56e;
+}
+
+.AT-background {
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png);
+    height: 100vh;
+    background-size: cover;
+}
+
+.AT-end-card {
+    background-color: #ffffff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.AT-heading {
+    color: #5752ab;
+    font-family: Bree Serif;
+    font-size: 25px;
+}
+
+.AT-paragraph {
+    color: #323f4b;
+    font-family: Roboto;
+
+}
+
+.AT-center {
+    text-align: center;
+}
+
+.AT-but {
+    background-color: white;
+    color: #171f46;
+    padding: 0px;
+    border-radius: 15px;
+}
+
+.AT-butn {
+    background-color: #171f46;
+    color: #ffffff;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+}
