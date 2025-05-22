@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="sectionHomePage">
+        <div class="pad">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="img" />
+        </div>
+        <div>
+            <h1 class="pro-head">My Projects</h1>
+            <p class="pro-paragraph">These are a few of my static Website Projects that I have <br />
+                developed using HTML, CSS and Bootstrap </p>
+        </div>
+        <div class="text d-flex flex-row">
+            <div class="img-pad" onclick="display('sectionAT')">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="img-mod" />
+            </div>
+            <div class="img-pad" onclick="display('sectionDC')">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" class="img-mod" />
+            </div>
+        </div>
+        <div class="text d-flex flex-row">
+            <div class="img-pad" onclick="display('sectionHM')">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="img-mod" />
+            </div>
+            <div class="img-pad" onclick="display('sectionNP')">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="img-mod" />
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionNP">
+        <div>
+
+            <div class="NP-background d-flex flex-column justify-content-end">
+                <div class="NP-card">
+                    <div class="NP-pad">
+                        <p CLASS="NP-head">NEWS OF THE DAY</p>
+                        <h1 class="NP-heading">iB Cricket announces World first
+                            Virtual Reality Cricket League</h1>
+                        <p class="NP-paragraph">iB Cricket Viu together have announced the World's
+                            first virtual reality cricket league featuring 12 international
+                            cricket, who will be competing against each other for
+                            the iB Cricket Super Over League title in Mumbai.Iconic
+                            crickets like Virender sehwag, Suresh Raina,Bredon
+                            McCullum will be competing in the league.</p>
+                        <button class="NP-butn">Read more</button>
+                        <button class="btn btn-primary" onclick="display('sectionHomePage')">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionHM">
+        <div class="HM-backgro d-flex flex-column justify-content-end">
+            <div class="HM-back">
+                <h1 class=HM-main-heading> Happy Meals </h1>
+                <p class=HM-para> Discover the best foods over the 1,000</P>
+                <p class=HM-para>restaurants</p>
+                <div class=HM-cen>
+                    <button class=HM-but> Book Now </button>
+                    <button class="btn btn-primary" onclick="display('sectionHomePage')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionAT">
+        <div class="AT-background d-flex flex-column justify-content-end">
+
+
+            <div class="AT-end-card">
+                <h1 class="AT-heading">Advanced Technologies</h1>
+                <p class="AT-paragraph">Machinery and equipment development from
+                    the application of scientific knowledge.</p>
+
+                <div class="AT-center">
+                    <button calss=AT-but>Learn more</button>
+                    <button class=AT-butn>Save Draft</button>
+                    <button class="btn btn-primary" onclick="display('sectionHomePage')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
