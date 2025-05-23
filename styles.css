@@ -89,6 +89,12 @@
     background-size: cover;
 }
 
+.DC-backgro {
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png);
+    height: 100vh;
+    background-size: cover;
+}
+
 .HM-back {
     background-color: #f6c56e;
     height: 25vh;
